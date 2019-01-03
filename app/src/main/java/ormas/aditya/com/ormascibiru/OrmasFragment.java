@@ -45,7 +45,7 @@ public class OrmasFragment extends Fragment {
         layoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setHasFixedSize(true);
-        fetchContact("users");
+        fetchContact("dataormascibiru");
         return view;
     }
 

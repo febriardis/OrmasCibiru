@@ -43,6 +43,9 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
             case R.id.ormas_menu:
                 fragment = new OrmasFragment();
                 break;
+            case R.id.info_menu:
+                fragment = new InfoFragment();
+                break;
         }
         return loadFragment(fragment);
     }

@@ -9,6 +9,6 @@ import retrofit2.http.Query;
 public interface ApiInterface {
     @GET("index.php")
     Call<List<Ormas>> getBuah(
-            @Query("item_type") String item_type
+            @Query("key") String key
     );
 }
