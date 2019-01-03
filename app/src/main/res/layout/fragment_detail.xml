@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detail Organisasi Masyarakat"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/judul"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="7dp"
+        android:padding="10dp"
+        android:text="Nama Ormas"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="47dp"
+        android:padding="10dp"
+        android:text="Alamat Ormas"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-83dp"
+        android:padding="10dp"
+        android:text="Jenis Ormas"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/searchalamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/type"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="55dp"
+        android:text="SEARCH ALAMAT"
+
+        />
+</LinearLayout>
